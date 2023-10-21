@@ -38,7 +38,7 @@ namespace Studentdatafile
                     //this try catch block used to if there any exceptions catch block executed otherwise try executed
                     try
                     {
-                        //Retrieve the data from the file to readme string ..and print it in console..
+                        //Retrieve the data from the file to readme string ..and print it in console.
                         reading = new StreamReader(fs);
                         string readme = reading.ReadToEnd();
                         Console.WriteLine(readme);
